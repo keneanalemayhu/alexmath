@@ -1,0 +1,26 @@
+fMath/
+├── assets/
+│   ├── script.js
+│   └── style.css
+├── backend/
+│   ├── food
+│   │   ├── add.php
+│   │   ├── delete.php
+│   │   ├── edit.php
+│   │   └── list.php
+│   ├── orders
+│   │   ├── add.php
+│   │   ├── delete.php
+│   │   ├── edit.php
+│   │   └── list.php
+│   ├── waiters
+│   │   ├── add.php
+│   │   ├── delete.php
+│   │   ├── edit.php
+│   │   └── list.php
+│   └── db.php
+├── sql/
+│   └── schema.sql
+├── index.html
+├── README.md
+└── structure.txt
