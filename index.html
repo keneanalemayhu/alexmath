@@ -1,3 +1,5 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,31 +11,30 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap"
       rel="stylesheet"
     />
-    <title>My To-Do List</title>
+    <title>AlexMath</title>
     <link rel="stylesheet" href="assets/style.css" />
   </head>
 
   <body>
-    <div class="container">
-      <h1>To-Do List</h1>
-
-      <form id="task-form">
-        <input
-          type="text"
-          id="new-task"
-          placeholder="Add a new task..."
-          autocomplete="off"
-        />
-        <button type="submit" title="Add Task">+</button>
-      </form>
-
-      <div class="task-list-container">
-        <ul id="task-list"></ul>
+    <div class="page-wrapper">
+      <!-- Navbar -->
+      <div class="navbar">
+        <button class="nav-btn active" data-section="waiters">Waiters</button>
+        <button class="nav-btn" data-section="foods">Foods</button>
+        <button class="nav-btn" data-section="orders">Orders</button>
       </div>
 
-      <p id="task-summary"></p>
+      <!-- Main Box -->
+      <div class="container">
+        <h1 id="section-title">Waiters</h1>
+        <form id="dynamic-form"></form>
+        <div class="list-container">
+          <ul id="dynamic-list"></ul>
+        </div>
+        <p id="summary"></p>
+      </div>
     </div>
 
-    <script src="assets/script.js"></script>
+    <script type="module" src="assets/script.js"></script>
   </body>
 </html>

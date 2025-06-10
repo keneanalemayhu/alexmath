@@ -1,3 +1,5 @@
+-- db/schema.sql
+
 CREATE TABLE waiters (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL,
